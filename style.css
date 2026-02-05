@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
 :root {
     --color-1: #27374D;
     --color-2: #526D82;
@@ -8,6 +11,7 @@
 body {
     color: gray;
     background-color: var(--color-1);
-    
-   }
    
+   }
+
+   h1 {font-family: "Bungee Spice", sans-serif;}
