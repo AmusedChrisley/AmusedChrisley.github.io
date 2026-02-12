@@ -9,17 +9,58 @@
 }
 
 body {
-    color: gray;
+    color: darkblue;
     background-color: var(--color-1);
    
-   }
+}
 
    h1 {font-family: "Bungee Spice", sans-serif;}
 
    #IndexPage{font-family: "Bungee Spice", sans-serif;
-
+    
    }
 
    .text-center {
-    text-align: center ;"
+    text-align: center;
    }
+
+   p{
+    padding: 24px;
+    background-color: whitesmoke;
+    max-width: 507px;
+     }
+
+     h1 {
+        text-align: center;
+     }
+     .navbar ul{
+
+        list-style-type: none;
+        background-color: black;
+        padding: 0px;
+        margin: 0px;
+     }
+     .navbar a{
+     color: var(--color-3);
+     text-decoration: none;
+     padding: 15px;
+     display: inline-block;
+     text-align:right 
+     }
+
+     nav a:hover {
+        background-color: black
+     }
+     .navbar li{
+       float: left;
+     }
+     
+     .home-link{
+        background-color: #526D82;
+        border-radius: 32px;
+        color: var(--color-1)
+     }
+
+    .home-link:hover {
+        color: var(--color-1)
+    }
