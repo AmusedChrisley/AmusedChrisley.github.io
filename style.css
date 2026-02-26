@@ -41,7 +41,7 @@ body {
         margin: 0px;
      }
      .navbar a{
-     color: var(--color-3);
+     color: var(white);
      text-decoration: none;
      padding: 15px;
      display: inline-block;
@@ -64,3 +64,14 @@ body {
     .home-link:hover {
         color: var(--color-1)
     }
+    nav {
+
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+
+
+
+    }
+    
