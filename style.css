@@ -74,4 +74,9 @@ body {
 
 
     }
+
+    a:visited{
+     color: var(--color-4);
+
+    }
     
