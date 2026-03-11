@@ -16,6 +16,8 @@ body {
 
    h1 {font-family: "Bungee Spice", sans-serif;}
 
+   h2 {font-family: "Bungee Spice", sans-serif;}
+
    #IndexPage{font-family: "Bungee Spice", sans-serif;
     
    }
@@ -79,4 +81,20 @@ body {
      color: var(--color-4);
 
     }
+
+    @media screen and (max-width: 480px) {
+      /* Mobile Devices */
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+   /* Tablet Devices */
+}
+
+
+@media screen and (max-width: 769px) {
+   /* Laptop/Desktop Devices */
+}
+
+
+
     
